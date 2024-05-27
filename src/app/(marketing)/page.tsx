@@ -27,20 +27,12 @@ export default function Home() {
 					</ClerkLoading>
 					<ClerkLoaded>
 						<SignedOut>
-							<SignUpButton
-								mode='modal'
-								afterSignInUrl='/courses'
-								afterSignUpUrl='/courses'
-							>
+							<SignUpButton mode='modal'>
 								<Button size='lg' variant='default' className='w-full'>
 									Начать обучение
 								</Button>
 							</SignUpButton>
-							<SignInButton
-								mode='modal'
-								afterSignInUrl='/courses'
-								afterSignUpUrl='/courses'
-							>
+							<SignInButton mode='modal'>
 								<Button
 									size='lg'
 									variant='link'
