@@ -30,8 +30,8 @@ export default async function Page({ params }: { params: { id: string } }) {
 						src='https://www.youtube.com/embed/SKRydSA2bYA'
 						title='Основы HTML для Начинающих (в 2024)'
 						allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-						referrerpolicy='strict-origin-when-cross-origin'
-						allowfullscreen
+						referrerPolicy='strict-origin-when-cross-origin'
+						allowFullScreen
 					></iframe>
 				</div>
 			</section>
