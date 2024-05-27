@@ -9,9 +9,9 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"@clerk/localizations": "^1.26.16",
+		"@clerk/localizations": "latest",
 		"@clerk/nextjs": "latest",
-		"@clerk/themes": "^1.7.10",
+		"@clerk/themes": "latest",
 		"@radix-ui/react-slot": "^1.0.2",
 		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.1.0",
