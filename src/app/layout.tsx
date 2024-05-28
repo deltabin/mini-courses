@@ -34,8 +34,7 @@ const fontSans = localFont({
 })
 
 export const metadata: Metadata = {
-	title: 'Anilix',
-	description: 'Кинотеатр',
+	title: 'MiniCourses',
 }
 
 export default function RootLayout({
